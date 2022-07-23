@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Modifiy_gift_price</class>
+ <widget class="QWidget" name="Modifiy_gift_price">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>202</width>
+    <height>453</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>10</y>
+     <width>101</width>
+     <height>391</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLineEdit" name="lineEdit_4">
+      <property name="placeholderText">
+       <string>超跑派对卡</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="lineEdit_2">
+      <property name="placeholderText">
+       <string>迷迭香价格</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="lineEdit_10">
+      <property name="placeholderText">
+       <string>小迷迭香价格</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="lineEdit">
+      <property name="inputMask">
+       <string/>
+      </property>
+      <property name="placeholderText">
+       <string>两倍香价格</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="lineEdit_9">
+      <property name="placeholderText">
+       <string>三倍香价格</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="lineEdit_3">
+      <property name="placeholderText">
+       <string>摩天轮价格</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="lineEdit_11">
+      <property name="placeholderText">
+       <string>小摩天轮价格</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="lineEdit_6">
+      <property name="placeholderText">
+       <string>两倍轮子价格</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="lineEdit_5">
+      <property name="placeholderText">
+       <string>三倍轮子价格</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="lineEdit_7">
+      <property name="placeholderText">
+       <string>热气球价格</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="lineEdit_8">
+      <property name="placeholderText">
+       <string>星际战舰价格</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>410</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>确定</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

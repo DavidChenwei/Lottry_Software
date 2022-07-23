@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>First_window</class>
+ <widget class="QWidget" name="First_window">
+  <property name="windowModality">
+   <enum>Qt::ApplicationModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>523</width>
+    <height>544</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>登录</string>
+  </property>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>10</y>
+     <width>221</width>
+     <height>471</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLineEdit" name="RoomID_lineEdit">
+      <property name="text">
+       <string/>
+      </property>
+      <property name="placeholderText">
+       <string>请输入房间号/必填</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="RmbReturn_lineEdit">
+      <property name="text">
+       <string/>
+      </property>
+      <property name="placeholderText">
+       <string>请输入返点率/可不填</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="Mdx_Price_lineEdit">
+      <property name="text">
+       <string/>
+      </property>
+      <property name="placeholderText">
+       <string>请输入迷迭香价格/可不填</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="Mdx_Price_lineEdit_2">
+      <property name="text">
+       <string/>
+      </property>
+      <property name="placeholderText">
+       <string>请输入小迷迭香价格/可不填</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="double_mdx_price_lineEdit">
+      <property name="text">
+       <string/>
+      </property>
+      <property name="placeholderText">
+       <string>请输入两倍迷迭香价格/可不填</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="lineEdit_5">
+      <property name="placeholderText">
+       <string>请输入三倍迷迭香价格/可不填</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="Mtl_price_lineEdit">
+      <property name="text">
+       <string/>
+      </property>
+      <property name="placeholderText">
+       <string>请输入摩天轮价格/可不填</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="Mtl_price_lineEdit_2">
+      <property name="text">
+       <string/>
+      </property>
+      <property name="placeholderText">
+       <string>请输入小摩天轮价格/可不填</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="lineEdit">
+      <property name="placeholderText">
+       <string>请输入两倍摩天轮价格/可不填</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="lineEdit_2">
+      <property name="placeholderText">
+       <string>请输入三倍摩天轮价格/可不填</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="lineEdit_3">
+      <property name="placeholderText">
+       <string>请输入梦幻热气球价格/可不填</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="lineEdit_4">
+      <property name="placeholderText">
+       <string>请输入星际战舰价格/可不填</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="NextStep_pushButton">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>490</y>
+     <width>151</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>下一步</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

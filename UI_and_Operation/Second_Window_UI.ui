@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Second_window</class>
+ <widget class="QWidget" name="Second_window">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1105</width>
+    <height>881</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>抽奖红包统计</string>
+  </property>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>93</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>开始</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>680</x>
+     <y>60</y>
+     <width>160</width>
+     <height>501</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLCDNumber" name="lcdNumber">
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="smallDecimalPoint">
+       <bool>true</bool>
+      </property>
+      <property name="digitCount">
+       <number>7</number>
+      </property>
+      <property name="segmentStyle">
+       <enum>QLCDNumber::Flat</enum>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLCDNumber" name="lcdNumber_8">
+      <property name="smallDecimalPoint">
+       <bool>true</bool>
+      </property>
+      <property name="digitCount">
+       <number>7</number>
+      </property>
+      <property name="segmentStyle">
+       <enum>QLCDNumber::Flat</enum>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLCDNumber" name="lcdNumber_2">
+      <property name="smallDecimalPoint">
+       <bool>true</bool>
+      </property>
+      <property name="digitCount">
+       <number>7</number>
+      </property>
+      <property name="segmentStyle">
+       <enum>QLCDNumber::Flat</enum>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLCDNumber" name="lcdNumber_3">
+      <property name="smallDecimalPoint">
+       <bool>true</bool>
+      </property>
+      <property name="digitCount">
+       <number>7</number>
+      </property>
+      <property name="segmentStyle">
+       <enum>QLCDNumber::Flat</enum>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLCDNumber" name="lcdNumber_4">
+      <property name="smallDecimalPoint">
+       <bool>true</bool>
+      </property>
+      <property name="digitCount">
+       <number>7</number>
+      </property>
+      <property name="segmentStyle">
+       <enum>QLCDNumber::Flat</enum>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLCDNumber" name="lcdNumber_5">
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="smallDecimalPoint">
+       <bool>true</bool>
+      </property>
+      <property name="digitCount">
+       <number>7</number>
+      </property>
+      <property name="segmentStyle">
+       <enum>QLCDNumber::Flat</enum>
+      </property>
+      <property name="value" stdset="0">
+       <double>0.000000000000000</double>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLCDNumber" name="lcdNumber_6">
+      <property name="smallDecimalPoint">
+       <bool>true</bool>
+      </property>
+      <property name="digitCount">
+       <number>7</number>
+      </property>
+      <property name="segmentStyle">
+       <enum>QLCDNumber::Flat</enum>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>60</y>
+     <width>81</width>
+     <height>501</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>红包支出</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_12">
+      <property name="text">
+       <string>香和轮支出</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>参与人数</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_3">
+      <property name="text">
+       <string>礼物总数</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_4">
+      <property name="text">
+       <string>钻石总数</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_5">
+      <property name="text">
+       <string>RMB收入</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_6">
+      <property name="text">
+       <string>盈利/亏损</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>640</x>
+     <y>20</y>
+     <width>171</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QTableView" name="tableView">
+   <property name="geometry">
+    <rect>
+     <x>840</x>
+     <y>60</y>
+     <width>441</width>
+     <height>621</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_10">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>570</y>
+     <width>221</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>礼物总计</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLCDNumber" name="lcdNumber_9">
+   <property name="geometry">
+    <rect>
+     <x>1140</x>
+     <y>5</y>
+     <width>141</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="smallDecimalPoint">
+    <bool>true</bool>
+   </property>
+   <property name="digitCount">
+    <number>7</number>
+   </property>
+   <property name="segmentStyle">
+    <enum>QLCDNumber::Flat</enum>
+   </property>
+  </widget>
+  <widget class="QLCDNumber" name="lcdNumber_10">
+   <property name="geometry">
+    <rect>
+     <x>890</x>
+     <y>5</y>
+     <width>141</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="smallDecimalPoint">
+    <bool>true</bool>
+   </property>
+   <property name="digitCount">
+    <number>7</number>
+   </property>
+   <property name="segmentStyle">
+    <enum>QLCDNumber::Flat</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_13">
+   <property name="geometry">
+    <rect>
+     <x>790</x>
+     <y>20</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>盒子钻石总计</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_14">
+   <property name="geometry">
+    <rect>
+     <x>1040</x>
+     <y>20</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>返点RMB总计</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>870</x>
+     <y>750</y>
+     <width>181</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Perpetua Titling MT</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>本次直播总盈亏</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLCDNumber" name="lcdNumber_7">
+   <property name="geometry">
+    <rect>
+     <x>1050</x>
+     <y>730</y>
+     <width>231</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="digitCount">
+    <number>8</number>
+   </property>
+   <property name="segmentStyle">
+    <enum>QLCDNumber::Flat</enum>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="modify_price_pushButton">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>10</y>
+     <width>81</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>修改金额</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_monitor_player">
+   <property name="geometry">
+    <rect>
+     <x>720</x>
+     <y>610</y>
+     <width>93</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>玩家监控</string>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="textBrowser">
+   <property name="geometry">
+    <rect>
+     <x>1</x>
+     <y>600</y>
+     <width>701</width>
+     <height>241</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="font">
+    <font>
+     <family>Courier New</family>
+    </font>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="textBrowser_2">
+   <property name="geometry">
+    <rect>
+     <x>1</x>
+     <y>60</y>
+     <width>591</width>
+     <height>501</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="font">
+    <font>
+     <family>Courier New</family>
+     <pointsize>8</pointsize>
+    </font>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_11">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>570</y>
+     <width>201</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>楷体</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>主播名称</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>570</y>
+     <width>111</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>显示收益曲线</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
